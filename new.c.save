@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	printf("NPTEL\n");
+
+	char a;
+	printf("Please enter the operand: ");
+	scanf("%s", &a);
+	int x, y;
+	printf("Enter the numbers: ");
+	scanf("%d %d", &x, &y);
+
+	if (a=="+")
+	{
+		printf("Result: %d", x+y)
+	}
+	else if (a=="-")
+	{
+		printf("Result: %d", x-y)
+	}
+}
